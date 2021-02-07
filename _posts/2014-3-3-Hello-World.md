@@ -29,7 +29,7 @@ Chicago Crime Data will be used to obtain a comprehensive understanding of crime
 
 The Chicago Crime Data contains 22 features as shown in the results of the following Python code. The primary features we are interested in are listed below:
 	
-* **YEAR** Year the incident occurred.
+				- **YEAR** Year the incident occurred.
 - **PRIMARY_TYPE** The primary description of the IUCR code.
 - **COMMUNITY_AREA_NUMBER** Indicates the community area where the incident occurred. Chicago has 77 community areas.
 - **LOCATION_DESCRIPTION** Description of the location where the incident occurred.
