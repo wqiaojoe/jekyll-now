@@ -21,7 +21,6 @@ This section will introduce what the required data is, where and how the data is
 
 This project will be using two datasets that are available on the city of Chicago's Data Portal:
 
-
 1. [Chicago Crime Data](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2)
 
 This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days. Data is extracted from the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system.
@@ -29,9 +28,9 @@ This dataset reflects reported incidents of crime (with the exception of murders
 Chicago Crime Data will be used to obtain a comprehensive understanding of crime rate from 2004 to 2012 including the trend, types of crimes, crime rate of different communities and so on. Data visualization will help to achieve this goal. Census data of all the communities of Chicago will be jointly considered to give a clear picture of the connection of community population and income to crime rate of that area.
 
 The Chicago Crime Data contains 22 features as shown in the results of the following Python code. The primary features we are interested in are listed below:
-- **YEAR** Year the incident occurred.
-- **PRIMARY_TYPE** The primary description of the IUCR code.
-- **COMMUNITY_AREA_NUMBER** Indicates the community area where the incident occurred. Chicago has 77 community areas.
+- 	**YEAR** Year the incident occurred.
+- 	**PRIMARY_TYPE** The primary description of the IUCR code.
+- 	**COMMUNITY_AREA_NUMBER** Indicates the community area where the incident occurred. Chicago has 77 community areas.
 - **LOCATION_DESCRIPTION** Description of the location where the incident occurred.
 - **LATITUDE** The latitude of the location where the incident occurred.
 - **LONGITUDE** The longitude of the location where the incident occurred.
@@ -45,3 +44,17 @@ The Census Data has 9 features and the following are essential to this project:
 - **COMMUNITY_AREA_NAME** Community actual name
 - **PERCENT HOUSEHOLDS BELOW POVERTY** Percent of households living below the federal poverty level
 - **PER_CAPITA_INCOME** Community Area Per capita income is estimated as the sum of tract-level aggregate incomes divided by the total population
+
+### Data Collection and Data Preparation
+
+Both datasets are available in Chicago Data Portal. To get the full dataset, one is able to extract it through Chicago API, powered by Socrata. As the project is interested in a certain period (9 years spanning 2008), crime data of year 2004 to 2012 has been extracted from the database, which contains 3686677 rows and 22 columns. In contrast, Census Data available officially is only from 2008 to 2012 and is relatively small.
+
+The first step of the preparation of both datasets is to filter the interested features which has been introduced in the beginning of the section. After filtering, NaN rows in Chicago Crime Data have been dropped and proper data types have been redefined for features such as community area number, latitudes and longitudes. Similar cleaning work was done to Census Data. For convenience, the names of common features of both datasets are kept consistent.
+
+
+
+
+
+
+
+
