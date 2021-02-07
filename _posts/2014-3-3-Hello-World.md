@@ -55,8 +55,7 @@ The first step of the preparation of both datasets is to filter the interested f
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
 ![_Figure1]({{ site.baseurl }}/images/Figure1.PNG)
-
-<center style="font-size:14px;color:#C0C0C0;text-decoration:underline">图1.知乎</center> 
+<center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Figure 1: dddf</center> 
 
 ![_Figure2]({{ site.baseurl }}/images/Figure2.PNG)
 
