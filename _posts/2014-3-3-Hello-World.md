@@ -60,6 +60,17 @@ The first step of the preparation of both datasets is to filter the interested f
 
 <center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Figure 2: Census Data</center> 
 
+## Methodology
+This section covers the methodology used to analyze Chicago's crime data as well as the census data. The aim is to elaborate any correlations, trend and distribution by means of statistical analysis, visualization and machine learning tool. Specifically, the project first uses exploratory analysis to provide a complete picture of crime data over the 9 years. Methods include bar chart, line chart, box plot and heat map. Moreover, k-means clustering has been used to cluster communities according to the frequency of different crimes. In order to verify whether crime rate may have an impact on the community’s economy, communities with different economic situations are plotted on the crime heat map.
+
+### Exploratory Analysis
+
+#### Variation trend of total number of crimes
+The chart aims to provide an overview of the total number of crimes that happened in Chicago each year and demonstrate a trend over the 9 years being investigated.
+
+![_Figure3]({{ site.baseurl }}/images/Figure3.png)
+
+<center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Figure 3: Total number of crimes of each year from 2004 to 2012</center>
 
 
 
