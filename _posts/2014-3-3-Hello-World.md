@@ -53,7 +53,6 @@ Both datasets are available in Chicago Data Portal. To get the full dataset, one
 The first step of the preparation of both datasets is to filter the interested features which has been introduced in the beginning of the section. After filtering, NaN rows in Chicago Crime Data have been dropped and proper data types have been redefined for features such as community area number, latitudes and longitudes. Similar cleaning work was done to Census Data. For convenience, the names of common features of both datasets are kept consistent.
 
 ![_Figure1]({{ site.baseurl }}/images/Figure1.PNG)
-
 Figure 1: Chicago Crime Data
 
 ![_Figure2]({{ site.baseurl }}/images/Figure2.PNG)
