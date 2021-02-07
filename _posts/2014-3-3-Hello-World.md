@@ -29,12 +29,12 @@ This dataset reflects reported incidents of crime (with the exception of murders
 Chicago Crime Data will be used to obtain a comprehensive understanding of crime rate from 2004 to 2012 including the trend, types of crimes, crime rate of different communities and so on. Data visualization will help to achieve this goal. Census data of all the communities of Chicago will be jointly considered to give a clear picture of the connection of community population and income to crime rate of that area.
 
 The Chicago Crime Data contains 22 features as shown in the results of the following Python code. The primary features we are interested in are listed below:
-- **YEAR** Year the incident occurred.
-- **PRIMARY_TYPE** The primary description of the IUCR code.
-- **COMMUNITY_AREA_NUMBER** Indicates the community area where the incident occurred. Chicago has 77 community areas.
-- **LOCATION_DESCRIPTION** Description of the location where the incident occurred.
-- **LATITUDE** The latitude of the location where the incident occurred.
-- **LONGITUDE** The longitude of the location where the incident occurred.
+	- **YEAR** Year the incident occurred.
+	- **PRIMARY_TYPE** The primary description of the IUCR code.
+	- **COMMUNITY_AREA_NUMBER** Indicates the community area where the incident occurred. Chicago has 77 community areas.
+	- **LOCATION_DESCRIPTION** Description of the location where the incident occurred.
+	- **LATITUDE** The latitude of the location where the incident occurred.
+	- **LONGITUDE** The longitude of the location where the incident occurred.
 
 - [Census Data - Socioeconomic Indicators in Chicago](https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2)
 
@@ -45,8 +45,3 @@ The Census Data has 9 features and the following are essential to this project:
 - **COMMUNITY_AREA_NAME** Community actual name
 - **PERCENT HOUSEHOLDS BELOW POVERTY** Percent of households living below the federal poverty level
 - **PER_CAPITA_INCOME** Community Area Per capita income is estimated as the sum of tract-level aggregate incomes divided by the total population
-
-
-
-
-
