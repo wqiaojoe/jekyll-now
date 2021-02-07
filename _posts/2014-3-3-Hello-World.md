@@ -54,7 +54,7 @@ The first step of the preparation of both datasets is to filter the interested f
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
-![Figure 2]({{site.baseurl}}/https://github.com/wqiaojoe/wqiaojoe.github.io/blob/master/_posts/Figure2.PNG)
+![Figure1]({{ site.baseurl }}/images/Figure1.PNG)
 
 
 
