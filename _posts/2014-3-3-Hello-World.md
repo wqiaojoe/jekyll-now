@@ -70,6 +70,7 @@ The chart aims to provide an overview of the total number of crimes that happene
 
 ![_Figure3]({{ site.baseurl }}/images/Figure3.png)
 
+
 <center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Figure 3: Total number of crimes of each year from 2004 to 2012</center>
 
 
