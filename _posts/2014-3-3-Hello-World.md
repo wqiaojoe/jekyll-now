@@ -77,6 +77,7 @@ Overall view of the total number of crimes of different types over the 9 years. 
 
 ![_Figure4]({{ site.baseurl }}/images/Figure4.png)
 
+Figure 4: Total number of crimes of different types over the 9 years
 
 
 
