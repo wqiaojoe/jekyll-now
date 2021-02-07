@@ -64,7 +64,7 @@ This section covers the methodology used to analyze Chicago's crime data as well
 
 ### Exploratory Analysis
 
-#### Variation trend of total number of crimes
+##### Variation trend of total number of crimes
 The chart aims to provide an overview of the total number of crimes that happened in Chicago each year and demonstrate a trend over the 9 years being investigated.
 
 ![_Figure3]({{ site.baseurl }}/images/Figure3.png)
