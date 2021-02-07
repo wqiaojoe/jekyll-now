@@ -56,7 +56,7 @@ The first step of the preparation of both datasets is to filter the interested f
 
 ![_Figure1]({{ site.baseurl }}/images/Figure1.PNG)
 
-_Figure 1: Chicago Crime Data_
+Figure 1: Chicago Crime Data
 
 ![_Figure2]({{ site.baseurl }}/images/Figure2.PNG)
 
