@@ -55,10 +55,10 @@ Both datasets are available in Chicago Data Portal. To get the full dataset, one
 The first step of the preparation of both datasets is to filter the interested features which has been introduced in the beginning of the section. After filtering, NaN rows in Chicago Crime Data have been dropped and proper data types have been redefined for features such as community area number, latitudes and longitudes. Similar cleaning work was done to Census Data. For convenience, the names of common features of both datasets are kept consistent.
 
 ![_Figure1]({{ site.baseurl }}/images/Figure1.PNG)
-Figure 1: Chicago Crime Data
+_Figure 1: Chicago Crime Data_
 
 ![_Figure2]({{ site.baseurl }}/images/Figure2.PNG)
-
+_Figure 2: Census Data_
 <center style="font-size:14px;color:#C0C0C0;text-decoration:underline">Figure 2: Census Data</center> 
 
 ## Methodology <a name="method"></a>
@@ -70,58 +70,49 @@ This section covers the methodology used to analyze Chicago's crime data as well
 The chart aims to provide an overview of the total number of crimes that happened in Chicago each year and demonstrate a trend over the 9 years being investigated.
 
 ![_Figure3]({{ site.baseurl }}/images/Figure3.png)
-
-Figure 3: Total number of crimes of each year from 2004 to 2012
+_Figure 3: Total number of crimes of each year from 2004 to 2012_
 
 #### Total number of crimes of different types
 Overall view of the total number of crimes of different types over the 9 years. Only those types committed over 5000 times are plotted (Figure 4).
 
 ![_Figure4]({{ site.baseurl }}/images/Figure4.png)
-
-Figure 4: Total number of crimes of different types over the 9 years
+_Figure 4: Total number of crimes of different types over the 9 years_
 
 #### Economy-related crimes
 This line chart aims to show a variation trend over the 9 years of crime types that are potentially related to economy such as theft, robbery, narcotics and so on. Meanwhile, a box plot is used to statistically demonstrate the distribution.
 
 ![_Figure5]({{ site.baseurl }}/images/Figure5.png)
-
-Figure 5: Economy-related crimes: trend and distribution
+_Figure 5: Economy-related crimes: trend and distribution_
 
 #### Heat Map
 The heat map shows the locations of the crimes committed in Chicago. The aim is to show some areas with high crime rate.
 
 ![_Figure6]({{ site.baseurl }}/images/Figure6.png)
-
-Figure 6: Heat Map of crimes in Chicago
+_Figure 6: Heat Map of crimes in Chicago_
 
 #### K-means Clustering
 With K-means clustering, the objective is to cluster 77 communities based on the frequency of crimes of different types. As the community coordinates are not available, average latitudes and longitudes of all the crimes are used (Figure 7).
 
 ![_Figure7]({{ site.baseurl }}/images/Figure7.png)
-
-Figure 7: Community locations
+_Figure 7: Community locations_
 
 In terms the best K, a range of K values have been tried to find the elbow point as shown in Figure 8 and the best K chosen is 8. With the optimal K, the 8 clusters of communities are shown in Figure 9.
 
 ![_Figure8]({{ site.baseurl }}/images/Figure8.png)
-
-Figure 8: Figure to show the elbow point
+_Figure 8: Figure to show the elbow point_
 
 ![_Figure9]({{ site.baseurl }}/images/Figure9.png)
-
-Figure 9: Clusters of Communities
+_Figure 9: Clusters of Communities_
 
 #### Community economy vs crimes
 
 To show the potential correlation of community financial situation with crimes, the simplest way is plot relevant data points on the heat map. Therefore, the project selects top 10 poorest and top 10 richest communities in terms of poverty rate and income respectively and plot them on the heat map of crimes after 2008 (Figure 10 and Figure 11).
 
 ![_Figure10]({{ site.baseurl }}/images/Figure10.png)
-
-Figure 10: Community economic situation from poverty percentage aspect: blue points being the 10 communities with highest poverty rate; red points being the 10 with lowest poverty rate
+_Figure 10: Community economic situation from poverty percentage aspect: blue points being the 10 communities with highest poverty rate; red points being the 10 with lowest poverty rate_
 
 ![_Figure11]({{ site.baseurl }}/images/Figure11.png)
-
-Figure 11: Community economic situation from capital income aspect: blue points being the 10 communities with lowest income; red points being the 10 with highest income
+_Figure 11: Community economic situation from capital income aspect: blue points being the 10 communities with lowest income; red points being the 10 with highest income_
 
 ## Results and Discussion <a name="Results"></a>
 This section will analyze the results so far and discuss its potential reasons or any interesting observations.
@@ -135,8 +126,7 @@ Heat map helps to spot high crime areas. Figure 6 gives a comprehensive view of 
 One interesting thing to investigate is to find out how the communities can be grouped based on the occurrence rate of different crimes. To this end, the project adopted K-means clustering. Before clustering, it is necessary to create a dataset that contains the occurrence rate of crimes for each community such as Figure 12. To find the best K i.e., the number of clusters, the project has tried values ranging from 1 to 20 and by showing the sum of distances of samples (SSD) to their closest cluster centres vs the values of K in Figure 8, one can identify the elbow point (K=8) after which the declining trend becomes much smaller and stable. The actual clusters shown in Figure 9 demonstrates that for some clusters e.g., the red and green cluster, community locations can be agminate whereas the communities in purple and blue clusters, for example, look rather dispersive.
 
 ![_Figure12]({{ site.baseurl }}/images/Figure12.png)
-
-Figure 12: Example of the table of occurrence rate
+_Figure 12: Example of the table of occurrence rate_
 
 In terms of the relationship of community economic situation and its crime rate, Figure 10 and Figure 11 provide an insight. To be specific, consider the percent households below poverty of different communities in Figure 10. The top 10 communities with high poverty rate mostly gather in middle part of Chicago as shown in blue points while the top 10 ones with low poverty rate shown as red points distribute in the northern and southwestern suburbs. It is also obvious to observe that basically all blue points locate on or are quite close to the areas of high crime rate whereas the red points have much safer neighbourhood. Figure 11 gives out a different picture in terms of the feature, per capita income. Communities of high income (red points) gather in the eastern coastal and downtown areas where the crime occurrence is also frequent. By contrast, low-income communities in blue points have a similar distribution with those in Figure 10.
 
