@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: Chicago Crime Data and Census Data Insight
 published: true
 ---
 
@@ -22,7 +22,7 @@ This section will introduce what the required data is, where and how the data is
 This project will be using two datasets that are available on the city of Chicago's Data Portal:
 
 
--[Chicago Crime Data](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2)
+- [Chicago Crime Data](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2)
 
 This dataset reflects reported incidents of crime (with the exception of murders where data exists for each victim) that occurred in the City of Chicago from 2001 to present, minus the most recent seven days. Data is extracted from the Chicago Police Department's CLEAR (Citizen Law Enforcement Analysis and Reporting) system.
     
@@ -36,7 +36,7 @@ The Chicago Crime Data contains 22 features as shown in the results of the follo
 - **LATITUDE** The latitude of the location where the incident occurred.
 - **LONGITUDE** The longitude of the location where the incident occurred.
 
--[Census Data - Socioeconomic Indicators in Chicago](https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2)
+- [Census Data - Socioeconomic Indicators in Chicago](https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2)
 
 This dataset contains a selection of six socioeconomic indicators of public health significance and a “hardship index,” by Chicago community area, for the years 2008 – 2012. The indicators are the percent of occupied housing units with more than one person per room (i.e., crowded housing); the percent of households living below the federal poverty level; the percent of persons in the labor force over the age of 16 years that are unemployed; the percent of persons over the age of 25 years without a high school diploma; the percent of the population under 18 or over 64 years of age (i.e., dependency); and per capita income. Indicators for Chicago as a whole are provided in the final row of the table.
 
