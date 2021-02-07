@@ -71,7 +71,7 @@ The chart aims to provide an overview of the total number of crimes that happene
 
 Figure 3: Total number of crimes of each year from 2004 to 2012
 
-#### Total number of crimes of different types
++ Total number of crimes of different types
 Overall view of the total number of crimes of different types over the 9 years. Only those types committed over 5000 times are plotted (Figure 4).
 
 ![_Figure4]({{ site.baseurl }}/images/Figure4.png)
