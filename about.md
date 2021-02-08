@@ -12,4 +12,4 @@ I'm currently seeking a doctor degree at University of York. Hope this blog is a
 
 ### Contact me
 
-[wqiaojoe@gmail.com](wqiaojoe@gmail.com)
+[wqiaojoe@gmail.com](mailto: wqiaojoe@gmail.com)
