@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+PhD in Electronic Engineering, University of York
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I'm currently seeking a doctor degree at University of York. Hope this blog is a start of recording technical stuff. 
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](wqiaojoe@gmail.com)
